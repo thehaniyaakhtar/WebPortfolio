@@ -809,6 +809,7 @@ a.certificate-link:hover {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin: 0 -10px;
+    overflow: visible;
 }
 
 .project-card {
@@ -865,16 +866,10 @@ a.certificate-link:hover {
 }
 
 .project-content h3 {
-    color: #f1f5f9;
+    color: #60a5fa;
     font-size: 1.1rem;
     margin-bottom: 0.8rem;
-}
-
-.project-content p {
-    color: #cbd5e1;
-    margin-bottom: 1.2rem;
-    line-height: 1.5;
-    font-size: 0.9rem;
+    font-weight: 700;
 }
 
 .project-tech {
@@ -907,7 +902,7 @@ a.certificate-link:hover {
 }
 
 .project-link:hover {
-    color: #93c5fd;
+    color: #93c5fd !important;
 }
 
 /* Contact Section */
@@ -955,8 +950,9 @@ a.certificate-link:hover {
 
 .contact-info h3 {
     color: #f1f5f9;
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
 }
 
 .contact-info p {
